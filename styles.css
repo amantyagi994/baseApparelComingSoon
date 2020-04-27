@@ -98,6 +98,43 @@ body,
   }
 }
 
+@media screen and (max-width: 768px) {
+  .main {
+    height: auto;
+    width: 100%;
+  }
+
+  .left {
+    height: auto;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .logoContainer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 30px;
+    margin-bottom: 0;
+  }
+
+  .imagemobile {
+    display: block;
+    opacity: 1;
+    width: 100%;
+  }
+
+  .imagemobile img {
+    width: 100%;
+  }
+
+  .right {
+    display: none;
+    opacity: 0;
+  }
+}
+
 /* media queries */
 
 .intro {
@@ -231,12 +268,48 @@ body,
   }
 }
 
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .msg {
+    width: 100%;
+    font-size: 15px;
+    padding: 0 30px;
+    text-align: center;
+    line-height: 1.4rem;
+  }
+
+  .emailContainer {
+    margin: 40px 0;
+    width: 100%;
+    padding: 0 25px;
+  }
+
+  .email {
+    width: 100%;
+  }
+
+  .error {
+    right: 120px;
+  }
+
+  .errmsg {
+    left: 56px;
+  }
+}
+
 footer {
   background: linear-gradient(135deg, #f8bfbf, #ee8c8c, #f8bfbf);
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 40px;
 }
 
 .attribution {
