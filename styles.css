@@ -22,7 +22,7 @@ body,
   height: 100vh;
   width: 100%;
   display: flex;
-  background: url(/images/bg-pattern-desktop.svg);
+  background: url(images/bg-pattern-desktop.svg);
   background-size: cover;
 }
 
@@ -33,7 +33,7 @@ body,
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url(/images/bg-pattern-desktop.svg);
+  background: url(images/bg-pattern-desktop.svg);
   background-size: cover;
 }
 
