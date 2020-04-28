@@ -15,7 +15,7 @@
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
   <body>
-    <section class="main">
+    <div class="main">
       <div class="left">
         <div class="logoContainer">
           <svg xmlns="http://www.w3.org/2000/svg" width="158" height="33">
@@ -54,6 +54,7 @@
           <input
             type="email"
             class="email"
+            name="email"
             id="email"
             placeholder="Email Address"
             required="required"
@@ -72,7 +73,13 @@
             </svg>
           </i>
           <div>
-            <button type="submit" class="btn" id="btn" onclick="checkEmail();">
+            <button
+              type="submit"
+              class="btn"
+              name="submit"
+              id="btn"
+              onclick="checkEmail();"
+            >
               <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20">
                 <path
                   fill="none"
@@ -89,7 +96,7 @@
       <div class="right">
         <img class="image" src="images/hero-desktop.jpg" alt="" />
       </div>
-    </section>
+    </div>
 
     <footer>
       <p class="attribution">
